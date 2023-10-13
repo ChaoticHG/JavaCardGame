@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resultsController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="444.0" style="-fx-background-color: LightSteelBlue;">
+         <children>
+            <Button fx:id="goBackButton" layoutX="48.0" layoutY="280.0" mnemonicParsing="false" onAction="#goBackClick" prefHeight="34.0" prefWidth="72.0" text="Go Back" />
+            <Button fx:id="restartButton" layoutX="200.0" layoutY="280.0" mnemonicParsing="false" onAction="#restartClick" prefHeight="34.0" prefWidth="72.0" text="Restart" />
+            <Label alignment="CENTER" layoutX="48.0" layoutY="39.0" prefHeight="46.0" prefWidth="81.0" text="Player " />
+            <Label alignment="CENTER" layoutX="154.0" layoutY="39.0" prefHeight="46.0" prefWidth="81.0" text="Total Points" />
+            <Label fx:id="player1" alignment="CENTER" layoutX="48.0" layoutY="85.0" prefHeight="46.0" prefWidth="81.0" text="Player 1" />
+            <Label fx:id="player2" alignment="CENTER" layoutX="48.0" layoutY="131.0" prefHeight="46.0" prefWidth="81.0" text="Player 2" />
+            <Label fx:id="p1Points" alignment="CENTER" layoutX="154.0" layoutY="85.0" prefHeight="46.0" prefWidth="81.0" text="Points 1" />
+            <Label fx:id="p2Points" alignment="CENTER" layoutX="154.0" layoutY="131.0" prefHeight="46.0" prefWidth="81.0" text="Points 2" />
+            <Label alignment="CENTER" layoutX="48.0" layoutY="173.0" prefHeight="46.0" prefWidth="81.0" text="Winner" />
+            <Label fx:id="winner" alignment="CENTER" layoutX="154.0" layoutY="173.0" prefHeight="46.0" prefWidth="81.0" text="Player" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

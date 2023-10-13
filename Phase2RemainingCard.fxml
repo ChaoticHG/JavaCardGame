@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<SplitPane dividerPositions="0.15151515151515152" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="996.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Phase2RemainingCardController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: LightSteelBlue;">
+         <children>
+            <VBox layoutY="-4.0" prefHeight="542.0" prefWidth="142.0" spacing="10.0">
+               <children>
+                  <Label fx:id="round" alignment="CENTER" prefHeight="77.0" prefWidth="122.0" text="Phase 2 Round 1" />
+                  <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#goBackClick" prefHeight="74.0" prefWidth="144.0" text="Go Back" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="762.0" prefWidth="841.0">
+         <children>
+            <HBox layoutX="-1.0" prefHeight="130.0" prefWidth="846.0" style="-fx-background-color: Azure;">
+               <children>
+                  <Label fx:id="player1Name" prefHeight="65.0" prefWidth="97.0" text="Player 1">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <ImageView fx:id="p1a" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1b" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1c" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1d" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1e" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1f" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutY="118.0" prefHeight="130.0" prefWidth="782.0" style="-fx-background-color: Azure;">
+               <children>
+                  <ImageView fx:id="p1g" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1h" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1i" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1j" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1k" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1l" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1m" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1n" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1o" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1p" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutY="248.0" prefHeight="130.0" prefWidth="840.0" style="-fx-background-color: Azure;">
+               <children>
+                  <ImageView fx:id="p1q" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1r" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1s" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1t" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1u" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1v" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1w" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1x" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1y" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p1z" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="-4.0" layoutY="378.0" prefHeight="130.0" prefWidth="846.0" style="-fx-background-color: Wheat;">
+               <children>
+                  <Label fx:id="player2Name" prefHeight="65.0" prefWidth="97.0" text="Player 2">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <ImageView fx:id="p2a" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2b" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2c" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2d" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2e" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2f" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="1.0" layoutY="508.0" prefHeight="130.0" prefWidth="840.0" style="-fx-background-color: Wheat;">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <ImageView fx:id="p2g" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2h" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2i" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2j" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2k" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2l" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2m" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2n" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2o" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2p" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <HBox layoutX="1.0" layoutY="638.0" prefHeight="130.0" prefWidth="840.0" style="-fx-background-color: Wheat;">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <ImageView fx:id="p2q" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2r" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2s" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2t" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2u" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2v" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2w" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2x" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2y" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="p2z" fitHeight="96.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

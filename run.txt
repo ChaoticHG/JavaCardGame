@@ -1,0 +1,14 @@
+﻿JavaFX library version: JDK 11.0 version
+IDE: VSCode
+Instructions on how to run the program:
+1. Install JavaFX extension in VSCode.
+2. Install JDK and configure Java runtime in VSCode.
+3. Open the project folder in VSCode.
+4. Add JavaFX jars to project's Referenced Libraries.
+5. Update the launch.json to include the correct "vmArgs", the "vmArgs" is the file location of the library. It is recommended to put the JavaFX library in C drive to prevent possible file location error.
+6. If you are having this error”Error: JavaFX runtime components are missing, and are required to run this application”, you will have to delete the launch.json file and create a new one using run and debug > create a lunch.json file. Then open the launch.json and add the line 
+"vmArgs": "--module-path C:/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+Right after “mainClass”:”Main”, .
+Make sure the JavaFX library is installed right in the C drive etc C:\javafx-sdk-11.0.2
+And under Java Projects Referenced Libraries > Add Jar libraries to Project Classpath> Select all .jar file under the C:\javafx-sdk-11.0.2\lib
+6. Compile and run the program.
